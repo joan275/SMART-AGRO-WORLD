@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Agro Uganda | Green Farming</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <div class="plant-logo"></div>
+                <span>🌿 Smart Agro Uganda</span>
+            </div>
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="technologies.html">Technologies</a></li>
+                <li><a href="machines.html">Machines</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Kulima kwa busara – Farming Smarter in Uganda</h1>
+                <p>Empowering Ugandan farmers with markets, skills, modern machinery, and real-time government updates.</p>
+                <a href="services.html" class="btn">Explore Services</a>
+            </div>
+        </section>
+
+        <section class="features">
+            <h2>What We Offer Ugandan Farmers</h2>
+            <div class="feature-grid">
+                <div class="feature-card">
+                    <img src="https://images.pexels.com/photos/316346/pexels-photo-316346.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Market produce">
+                    <h3>Produce Market</h3>
+                    <p>Sell maize, matooke, coffee, beans, and more. Direct links to buyers.</p>
+                </div>
+                <div class="feature-card">
+                    <img src="https://images.pexels.com/photos/6347/farmer-field-agriculture-grass.jpg?auto=compress&cs=tinysrgb&w=600" alt="Farming skills">
+                    <h3>Crop Skills</h3>
+                    <p>Training for bananas, cassava, groundnuts, and climate‑smart techniques.</p>
+                </div>
+                <div class="feature-card">
+                    <img src="https://images.pexels.com/photos/2449543/pexels-photo-2449543.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Government news">
+                    <h3>Gov. News</h3>
+                    <p>Updates on NAADS, Operation Wealth Creation, subsidies, and alerts.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Smart Agro Uganda. Growing together, green & clean.</p>
+    </footer>
+</body>
+</html>
