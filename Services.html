@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -27,10 +28,11 @@
     <main>
         <section class="page-header">
             <h1>Farmer Services – Uganda</h1>
-            <p>Market, skills, and government support, all in one place</p>
+            <p>Market, skills, government support, seedlings prices & farmer ratings</p>
         </section>
 
         <section class="services-grid">
+            <!-- Market Block -->
             <div class="service-block">
                 <h2>🌽 Agricultural Produce Market</h2>
                 <p><strong>Connect with buyers across Uganda.</strong> List your maize, beans, matooke, coffee, cassava, or groundnuts.</p>
@@ -42,5 +44,87 @@
                 <button class="btn" onclick="alert('Demo: WhatsApp +256 700 123 456 to post your produce')">Sell Your Produce</button>
             </div>
 
+            <!-- Skills Block -->
             <div class="service-block">
                 <h2>📚 Farming Skills for Major Crops</h2>
+                <p><strong>Free guides in English & Luganda.</strong> Video tutorials and downloadable PDFs.</p>
+                <div class="skills-list">
+                    <span>🍌 Matooke</span>
+                    <span>🌽 Maize</span>
+                    <span>☕ Coffee</span>
+                    <span>🥔 Cassava</span>
+                    <span>🥜 Groundnuts</span>
+                    <span>🌾 Rice</span>
+                </div>
+                <button class="btn" onclick="alert('Visit our training hub: youtube.com/SmartAgroUganda (demo)')">Access Skills Hub</button>
+            </div>
+
+            <!-- Government News Block -->
+            <div class="service-block">
+                <h2>📢 Government News for Farmers</h2>
+                <p><strong>Updates from MAAIF, NAADS, and UWEP.</strong> Subsidies, seed distribution, disease alerts.</p>
+                <div class="news-ticker">
+                    <p>🔔 <strong>Latest:</strong> NAADS releases subsidised solar pumps – apply by 15th June.</p>
+                    <p>🔔 <strong>Alert:</strong> Fall armyworm outbreak in Eastern region – report to sub-county.</p>
+                    <p>🔔 <strong>Update:</strong> Operation Wealth Creation – free coffee seedlings in Rwenzori.</p>
+                </div>
+                <button class="btn" onclick="alert('Subscribe to gov WhatsApp: +256 700 654 321')">Get News Alerts</button>
+            </div>
+
+            <!-- NEW: Seedlings Prices Table -->
+            <div class="service-block full-width">
+                <h2>🌱 Seedlings Prices (Uganda Shillings)</h2>
+                <p>Prices from certified nurseries – updated weekly.</p>
+                <table class="pricing-table">
+                    <tr>
+                        <th>Crop</th>
+                        <th>Seedling type</th>
+                        <th>Price per seedling (UGX)</th>
+                        <th>Bulk discount (100+)</th>
+                    </tr>
+                    <tr><td>Coffee (Robusta)</td><td>Grafted</td><td>1,500</td><td>1,200</td></tr>
+                    <tr><td>Matooke (Banana)</td><td>Tissue culture</td><td>3,000</td><td>2,500</td></tr>
+                    <tr><td>Maize</td><td>Hybrid seed (kg)</td><td>8,000/kg</td><td>7,000/kg</td></tr>
+                    <tr><td>Cassava</td><td>Stem cuttings (bundle)</td><td>15,000</td><td>12,000</td></tr>
+                    <tr><td>Groundnuts</td><td>Seed (2kg)</td><td>10,000</td><td>8,500</td></tr>
+                    <tr><td>Avocado (Hass)</td><td>Grafted</td><td>5,000</td><td>4,000</td></tr>
+                </table>
+                <p><em>Prices may vary by region. Contact local nursery for exact rates.</em></p>
+            </div>
+
+            <!-- NEW: User Ratings & Reviews -->
+            <div class="service-block full-width">
+                <h2>⭐ Farmer Ratings & Reviews</h2>
+                <p>What Ugandan farmers say about our services</p>
+                <div class="reviews-grid">
+                    <div class="review-card">
+                        <div class="rating">★★★★★ 5.0</div>
+                        <p>"The seedling price list saved me from overpaying. I bought coffee seedlings at 1,200 each instead of 2,000!"</p>
+                        <p class="reviewer">— Grace, Mbale</p>
+                    </div>
+                    <div class="review-card">
+                        <div class="rating">★★★★☆ 4.5</div>
+                        <p>"Government news alerts helped me get subsidised fertiliser in time. Very useful service."</p>
+                        <p class="reviewer">— John, Gulu</p>
+                    </div>
+                    <div class="review-card">
+                        <div class="rating">★★★★★ 5.0</div>
+                        <p>"The market platform connected me to a buyer for my maize – sold 5 tonnes at good price."</p>
+                        <p class="reviewer">— Fatima, Jinja</p>
+                    </div>
+                    <div class="review-card">
+                        <div class="rating">★★★★☆ 4.0</div>
+                        <p>"Skills videos on matooke farming increased my yield by 30%."</p>
+                        <p class="reviewer">— Moses, Fort Portal</p>
+                    </div>
+                </div>
+                <button class="btn" onclick="alert('Leave your review via WhatsApp +256 700 987 654')">Leave a Review</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Smart Agro Uganda. Growing together, green & clean.</p>
+    </footer>
+</body>
+</html>
